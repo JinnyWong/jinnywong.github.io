@@ -9,6 +9,8 @@
 
 body{
     font-family: 'Lato', sans-serif;
+    background-image: url('./assets/milad-fakurian-ZwFSkclYUqI-unsplash.jpg');
+    height:100vh;
 }
 
 html {
@@ -39,6 +41,7 @@ section {
   
   .section-container {
     display: flex;
+    justify-content: center;
   }
   
   /* PROFILE SECTION */
@@ -47,7 +50,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 90vh;
   }
   
   .section__pic-container {
@@ -68,20 +71,19 @@ section {
   
   .section__text p {
     font-weight: 600;
+    font-style: bold;
   }
   
   .section__text__p1 {
     text-align: center;
     font-size: 1.7rem;
+    color:	#818589;
   }
   
   .section__text__p2 {
-    font-size: 1rem;
-  }
-  
-  .section__text__p2 {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 3rem;
+    color:#36454F;
   }
   
   .title {
@@ -90,16 +92,18 @@ section {
     margin: 2rem;
   }
   
-  #socials-container {
+  .socials-container {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
-    margin-left: 11rem; 
     gap: 1rem;
-    width: 25px;
-    height: 25px;
-  }
 
+  }
+ 
+  .social-img{
+    width: 20px;
+    height:20px;
+  }
   
 
 /* BUTTONS */
@@ -143,7 +147,8 @@ section {
   /* FOOTER SECTION */
 
 footer {
-    margin-top: 6rem;
+    margin-top: 2rem;
+    justify-content: center;
   }
   
   footer p {

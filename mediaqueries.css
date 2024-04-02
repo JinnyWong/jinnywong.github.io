@@ -56,4 +56,9 @@
     .text-container {
       text-align: justify;
     }
+
+    footer p {
+      text-align: center;
+      font-size: 0.7rem;
+    } 
   }
